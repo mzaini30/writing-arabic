@@ -19,7 +19,9 @@
     arab = ubah_jadi_arab(latin);
     localStorage.latin = latin;
     localStorage.arab = arab;
-    bagian_arab.scrollTop = bagian_arab.scrollHeight;
+    if (bagian_arab) {
+      bagian_arab.scrollTop = bagian_arab.scrollHeight;
+    }
   } else {
     arab = "";
     localStorage.latin = "";
