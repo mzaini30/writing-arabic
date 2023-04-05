@@ -30,6 +30,14 @@
 </script>
 
 <div class="p-2 grid grid-cols-1 gap-2">
+  <div>
+    <a
+      href="index.html"
+      target="_blank"
+      class="bg-black px-4 py-3 rounded text-white text-sm inline-block"
+      >Open in New Tab</a
+    >
+  </div>
   <Textarea
     bind:this={bagian_arab}
     bind:teks={arab}
