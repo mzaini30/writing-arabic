@@ -30,12 +30,18 @@
 </script>
 
 <div class="p-2 grid grid-cols-1 gap-2">
-  <div>
+  <div class="flex gap-2">
     <a
       href="index.html"
       target="_blank"
       class="bg-black px-4 py-3 rounded text-white text-sm inline-block"
       >Open in New Tab</a
+    >
+    <a
+      href="http://www.qamus.org/transliteration.htm"
+      target="_blank"
+      class="px-4 py-3 rounded border border-black text-sm inline-block"
+      >Tutorial</a
     >
   </div>
   <Textarea
@@ -51,5 +57,13 @@
     bind:ini={bagian_latin}
     placeholder="Tulis huruf latin di sini"
   />
-  <a href="https://wa.me/6281545143654"><img src={iklan} alt="" /></a>
+  <!-- <a href="https://wa.me/6281545143654"><img src={iklan} alt="" /></a> -->
+  <div class="py-2 mx-auto">
+    <a
+      href="https://chat.whatsapp.com/GtAE57LiWNOFnTp1Sqd6in"
+      target="_blank"
+      class="px-4 py-2 rounded border-2 border-black text-sm mx-auto"
+      >Join Community</a
+    >
+  </div>
 </div>
