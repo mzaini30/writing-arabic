@@ -2,6 +2,7 @@
   import Textarea from "../bagian/textarea.svelte";
   import iklan from "../gambar/your-ad-here.jpg";
   import ubah_jadi_arab from "../fungsi/ubah-jadi-arab";
+  import AmbilShopeeAffiliate from "../bagian/ambil-shopee-affiliate.svelte";
 
   let latin;
   let arab;
@@ -55,15 +56,16 @@
   <Textarea
     bind:teks={latin}
     bind:ini={bagian_latin}
-    placeholder="Tulis huruf latin di sini"
+    placeholder="Write alphabet here"
   />
+  <AmbilShopeeAffiliate />
   <!-- <a href="https://wa.me/6281545143654"><img src={iklan} alt="" /></a> -->
-  <div class="py-2 mx-auto">
+  <!-- <div class="py-2 mx-auto">
     <a
       href="https://chat.whatsapp.com/GtAE57LiWNOFnTp1Sqd6in"
       target="_blank"
       class="px-4 py-2 rounded border-2 border-black text-sm mx-auto"
       >Join Community</a
     >
-  </div>
+  </div> -->
 </div>
