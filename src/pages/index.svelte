@@ -1,4 +1,5 @@
 <script>
+  import Whatsapp from '../bagian/whatsapp.svelte'
   import Textarea from "../bagian/textarea.svelte";
   import iklan from "../gambar/your-ad-here.jpg";
   import ubah_jadi_arab from "../fungsi/ubah-jadi-arab";
@@ -30,7 +31,7 @@
   }
 </script>
 
-<div class="p-2 grid grid-cols-1 gap-2">
+<div class="p-2 pb-17 grid grid-cols-1 gap-2">
   <div class="flex gap-2">
     <a
       href="index.html"
@@ -58,7 +59,7 @@
     bind:ini={bagian_latin}
     placeholder="Write alphabet here"
   />
-  <AmbilShopeeAffiliate />
+  <!-- <AmbilShopeeAffiliate /> -->
   <!-- <a href="https://wa.me/6281545143654"><img src={iklan} alt="" /></a> -->
   <!-- <div class="py-2 mx-auto">
     <a
@@ -69,3 +70,5 @@
     >
   </div> -->
 </div>
+
+<Whatsapp></Whatsapp>
