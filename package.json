@@ -17,6 +17,7 @@
   "dependencies": {
     "@unocss/reset": "^0.50.1",
     "@vitejs/plugin-legacy": "^2.1.0",
+    "iklan-shopee": "^0.0.3",
     "kumpulan-tools": "^1.0.0",
     "postcss-load-config": "^4.0.1",
     "svelte-spa-router": "^3.3.0",
